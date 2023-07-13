@@ -1,0 +1,26 @@
+@media (max-width: 1120px) {
+    .logo .img{
+        max-width: 190px;
+    }
+    .painel-de-personagens{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+    .painel-de-personagens .secao-de-personagens{
+        margin-top: 37px;
+    }
+    .painel-de-personagens .secao-de-personagens .titulo{
+        font-size: 15px;
+    }
+    .painel-de-personagens .lista-de-personagens{
+        gap: 9px;
+    }
+    .painel-de-personagens .personagem img{
+        width: 80px;
+    }
+    .secao-personagem-grande .imagem-grande{
+        width: 350px;
+        height: 350px;
+    }
+}
